@@ -14,10 +14,11 @@ const quotient = (x, y) => {
     return x / y;
 }
 
+const PEMDAS = (a, b, c) => {
+    return (a+b) / 22 * (21-245);
+}
+
 let a = 1;
 let b = 2
 
-console.log(`Sum: ${sum(a, b)}`);
-console.log(`Difference: ${difference(a, b)}`);
-console.log(`Product: ${product(a, b)}`);
-console.log(`Quotient: ${quotient(a, b)}`);
+console.log(`PEMDAS result: ${PEMDAS(a, b, 12)}`);
